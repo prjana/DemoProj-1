@@ -10,7 +10,10 @@ import com.example.model.Bank;
 @RestController
 public class BankController {
 
-	
+	/**
+	 * First end point to display name
+	 * @return
+	 */
 	@RequestMapping("/name")
 	public String displayName() {
 		Address addr = new Address("1500 ", "Wesk Creek ", " 23233 ", "Richmond ", "VA");
